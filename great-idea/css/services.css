@@ -67,9 +67,9 @@ h1, h2, h3, h4, h5 {
 
 
 .container {
-	width: 880px;
-	margin: 20px auto;
-	padding:20px 0px 20px 0px;
+	width: 88%;
+	margin: 1% auto;
+	padding:2% 0px;
 	background-color: white;
 }
 
@@ -80,9 +80,9 @@ h1 {
 
 footer.footer {
 	display:flex;
-	width:880px;
+	width:88%;
 	justify-content: center;
-	padding-top: 75px;
+	padding-top: 4%;
 }
 
 .logo {
@@ -120,14 +120,14 @@ header nav a {
 }
 
 .headerTOP {
-	width:880px;
+	width:88%;
 	display:flex;
 	align-items: center;
 	justify-content: flex-start;
 }
 
 .headerTEXT {
-	width:475px;
+	width:47%;
 	display:flex;
 	align-items: center;
 	justify-content: center;
@@ -143,7 +143,7 @@ header nav a {
 header .divNAV {
 	align-items: center;
 	justify-content: flex-start;
-	width:688px;
+	width:68%;
 }
 
 .middle-img {
@@ -189,7 +189,7 @@ header .divNAV {
 }
 
 .article {
-	width:435px;
+	width:43%;
 	padding:0px;
 	margin-bottom:20px;
 	box-sizing:border-box;
@@ -243,13 +243,13 @@ h2 {
 }
 
 .sectionSERV {
-	width:880px;
+	width:88%;
 	display:flex;
 
 }
 
 .servicesFACTS {
-	width:460px;
+	width:46%;
 	padding-right:50px;
 }
 
@@ -257,13 +257,13 @@ h2 {
 	font-family: 'Titillium Web', sans-serif;
 	background-color:white;
 	text-align:center;
-	padding:5px;
+	padding: .5%;
 	border: .75px solid black;
-	width:150px;
+	width:15%;
 	margin:0px auto;
 	font-size:14px;
 	border-radius: 5px;
-	margin-top:15px;
+	margin-top:1.5%;
 }
 
 .boxes {
@@ -273,17 +273,17 @@ h2 {
 	align-content: space-around;
 	border-bottom: 2px solid grey;
 	border-top: 2px solid grey;
-	margin:40px 0px;
-	padding:20px 0px;
+	margin:4% 0;
+	padding:2% 0;
 }
 
 .box {
 	background-color:whitesmoke;
-	width:420px;
+	width:42%;
 	box-sizing: border-box;
 	padding: 17.5px;
 	border: 1px solid black;
-	margin: 20px 0px;
+	margin: 2% 0;
 	
 }
 
@@ -293,26 +293,31 @@ h2 {
 }
 
 .li {
-	padding:5px;
-	margin-top:5px;
+	padding:1%;
+	margin-top:1%;
 }
 
 @media only screen and (max-width: 800px) {
 	body {
-		width:100%;
+        width:100%;
 		}
 	.container {
 		width:100%;
 		display:flex;
 		align-items: flex-start;
-		align-content: center;
+		align-content: flex-start;
 		flex-flow: column;
 		justify-content: center;
-		flex-wrap: wrap;
+        flex-wrap: wrap;
+        background-color: whitesmoke;
+        width: 98%;
+        margin: 1% auto;
+        padding:2% 0px;
 	}
 
 	.boxes {
-		width:100%
+        width:100%;
+        padding:2.5%;
 		display:flex;
 		align-content:center;
 		align-items:flex-start;
