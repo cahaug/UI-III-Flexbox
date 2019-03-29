@@ -65,12 +65,19 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+body {
+    display: flex;
+    flex-flow:column;
+}
+
 
 .container {
 	width: 88%;
 	margin: 1% auto;
 	padding:2% 0px;
-	background-color: white;
+    background-color: white;
+    display: flex;
+    flex-flow:column;
 }
 
 h1 {
@@ -123,7 +130,8 @@ header nav a {
 	width:88%;
 	display:flex;
 	align-items: center;
-	justify-content: flex-start;
+    justify-content: flex-start;
+    
 }
 
 .headerTEXT {
@@ -220,7 +228,8 @@ section .text {
 
 .navID {
 	display:flex;
-	justify-content: space-around;
+    justify-content: space-around;
+    flex-flow:column;
 }
 
 nav {
@@ -231,7 +240,9 @@ nav {
 .header1 {
 	display:flex;
 	align-items: center;
-	justify-content: center;
+    justify-content: center;
+    flex-flow: column-reverse;
+    width:100%;
 }
 
 .services-header-img {
